@@ -1,0 +1,6 @@
+1. 
+select 
+OP.OwnerId,P.Name,OP.PropertyId
+FROM OwnerProperty AS OP
+INNER JOIN Property AS P ON P.Id=OP.Id
+WHERE OwnerId=1426
